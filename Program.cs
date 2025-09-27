@@ -1,6 +1,6 @@
 ﻿﻿string fraseDigitada, fraseComDislalia;
 
-Console.Write("Digite uma flase: ");
+Console.Write("Digite uma frase: ");
 fraseDigitada = Console.ReadLine()!;
 
 fraseComDislalia = fraseDigitada
@@ -8,3 +8,4 @@ fraseComDislalia = fraseDigitada
     .Replace("R", "L");
 
 Console.WriteLine(fraseComDislalia);
+
